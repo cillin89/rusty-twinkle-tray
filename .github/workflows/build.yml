@@ -2,9 +2,9 @@ name: Rust
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "hotkey" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "hotkey" ]
 
 env:
   CARGO_TERM_COLOR: always
