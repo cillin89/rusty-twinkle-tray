@@ -32,4 +32,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: target/x86_64-pc-windows-msvc/release/rusty-twinkle-tray.exe
-        tag_name: release-2025-08-26
+        tag_name: hotkey
