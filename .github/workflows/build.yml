@@ -18,6 +18,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: hotkey
     - name: Build
       run: cargo build --release --verbose --target x86_64-pc-windows-msvc
     - name: Upload Executable
