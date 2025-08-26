@@ -22,7 +22,7 @@ use windows::Foundation::TypedEventHandler;
 use windows::Win32::Foundation::RECT;
 use windows::Win32::System::WinRT::{RoInitialize, RoUninitialize, RO_INIT_SINGLETHREADED};
 use windows::UI::ViewManagement::UISettings;
-use windows::Win32::UI::Input::KeyboardAndMouse::{MOD_ALT, VK_F1, VK_F2};
+use windows::Win32::UI::Input::KeyboardAndMouse::{MOD_CONTROL, VK_UP, VK_DOWN};
 use windows_ext::UI::Xaml::ElementTheme;
 use windows_ext::UI::Xaml::Hosting::WindowsXamlManager;
 
